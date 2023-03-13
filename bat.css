@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(25,25,25);
+}
+.batbody{
+    background-color:rgb(237,170,80);
+    height:30vh;
+    width:40vw;   
+    margin:auto;
+    margin-top: 35vh;
+}
+.circlediv{
+    display:flex;
+    width:140vmin;
+    margin:auto;
+}
+.circle{
+    background-color: rgb(25,25,25);
+    /* background-color:white; */
+    height:35vmin;
+    width:35vmin;
+    border-radius: 50%;
+    
+}
+.circle:nth-child(2){
+    transform: translate(2vw,-10vh);
+}
+.circle:nth-child(3){
+    transform: translate(-2vw,-10vh);
+}
+.circle:nth-child(1){
+    transform: translate(7vw,-30vh);
+}
+.circle:nth-child(4){
+    transform: translate(-7vw,-30vh);
+}
+.headbigsquare{
+    background-color: rgb(25,25,25);
+    /* background-color: white; */
+    height:10vh;
+    width:12vw;
+    margin:auto;
+    transform: translate(0,-67vh);
+    border-radius: 10px;
+}
+.headsmallsquare{
+    background-color:rgb(237,170,80);
+    height:6vh;
+    width:4vw;
+    margin:auto;
+    transform: translate(0,-72vh);
+}
+.eardiv{
+    display: flex;
+    justify-content: space-between;
+    width: 10vmin;
+    margin: auto;
+}
+.ears{
+    background-color:rgb(237,170,80);
+    height:3vmin;
+    width:3vmin;
+    border-radius: 50%;
+    transform: translate(0,-80vh);
+    
+
+}
